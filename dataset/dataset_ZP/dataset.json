@@ -1,0 +1,72 @@
+[
+    {
+        "instruction": "描述slotcraft的主要功能",
+        "input": "",
+        "output": "slotcraft是一个快速制作slot游戏的系统，主要分为逻辑编辑和client编辑两部分，通过配置组件的workflow实现对slot游戏逻辑的细节控制。"
+    },
+    {
+        "instruction": "列举slotcraft中的初始化转轮类组件",
+        "input": "",
+        "output": "slotcraft中的初始化转轮类组件包括：BasicReels和WeightReels。"
+    },
+    {
+        "instruction": "解释BasicReels组件的作用",
+        "input": "",
+        "output": "BasicReels是最基础的组件，用于通过一个Reels来初始化游戏。"
+    },
+    {
+        "instruction": "描述WeightReels组件的用途",
+        "input": "",
+        "output": "WeightReels适用于有多套Reels的游戏，根据配置的权重表选择一个Reels来初始化游戏。"
+    },
+    {
+        "instruction": "列举slotcraft中的Trigger类组件",
+        "input": "",
+        "output": "slotcraft中的Trigger类组件包括：LinesTrigger、WaysTrigger、ScatterTrigger和ClusterTrigger。"
+    },
+    {
+        "instruction": "解释LinesTrigger组件的功能",
+        "input": "",
+        "output": "LinesTrigger支持line玩法，可以从左到右和从右到左进行判断。"
+    },
+    {
+        "instruction": "简述WaysTrigger组件的作用",
+        "input": "",
+        "output": "WaysTrigger用于实现ways玩法。"
+    },
+    {
+        "instruction": "描述ScatterTrigger组件的用途",
+        "input": "",
+        "output": "ScatterTrigger一般用于scatter玩法，用来触发特殊feature。"
+    },
+    {
+        "instruction": "解释ClusterTrigger组件的功能",
+        "input": "",
+        "output": "ClusterTrigger通常用于cluster玩法，在消除类游戏中比较常见。"
+    },
+    {
+        "instruction": "列举slotcraft中的特殊逻辑类组件",
+        "input": "",
+        "output": "slotcraft中的特殊逻辑类组件包括：Respin、Collector、SymbolCollection和PositionCollection。"
+    },
+    {
+        "instruction": "描述Respin组件的核心功能",
+        "input": "",
+        "output": "Respin是FreeGame以及respin玩法的核心组件。"
+    },
+    {
+        "instruction": "解释Collector组件的作用",
+        "input": "",
+        "output": "Collector作为收集器，根据规则收集特定的symbol或特定的wins，最终触发特殊feature。"
+    },
+    {
+        "instruction": "简述SymbolCollection组件的用途",
+        "input": "",
+        "output": "SymbolCollection一般用于symbol的遍历逻辑。"
+    },
+    {
+        "instruction": "描述PositionCollection组件的功能",
+        "input": "",
+        "output": "PositionCollection一般用于position的遍历逻辑。"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "instruction": "解释什么是slotcraft",
+        "input": "",
+        "output": "slotcraft是一个系统，用于快速创建slot游戏，包括逻辑编辑和client编辑两部分，让用户通过配置组件工作流来控制游戏逻辑的细节。"
+    },
+    {
+        "instruction": "slotcraft的组成部分",
+        "input": "",
+        "output": "slotcraft由逻辑编辑和client编辑两部分组成。"
+    },
+    {
+        "instruction": "逻辑编辑部分的主要功能",
+        "input": "",
+        "output": "逻辑编辑部分让用户通过类似流程图的方式配置组件工作流，以实现对slot游戏逻辑的细节控制。"
+    },
+    {
+        "instruction": "初始化转轮类组件",
+        "input": "",
+        "output": "初始化转轮类用于设置游戏的基础，包括BasicReels（基础组件）和WeightReels（基于权重表选择初始化的组件）。"
+    },
+    {
+        "instruction": "Trigger类组件的种类",
+        "input": "",
+        "output": "Trigger类组件包括LinesTrigger（线性玩法）、WaysTrigger（方式玩法）、ScatterTrigger（散点玩法）和ClusterTrigger（群集玩法）。"
+    },
+    {
+        "instruction": "特殊逻辑类组件的示例",
+        "input": "",
+        "output": "特殊逻辑类组件有Respin（免费游戏和重转玩法）、Collector（收集器）、SymbolCollection（符号集合）和PositionCollection（位置集合）。"
+    },
+    {
+        "instruction": "reels变化类组件的作用",
+        "input": "",
+        "output": "reels变化类组件根据特定规则改变转轮，如ReplaceReel（替换转轮）。"
+    },
+    {
+        "instruction": "symbol变化类组件的功能",
+        "input": "",
+        "output": "symbol变化类组件根据规则改变特定的symbol，如MoveSymbol（移动符号）和Cascading（消除玩法）。"
+    },
+    {
+        "instruction": "SymbolVals类组件的用途",
+        "input": "",
+        "output": "SymbolVals类组件用于在特定位置提供额外数据，如SymbolValWins（用于coin玩法，收集coin并产生胜利）。"
+    },
+    {
+        "instruction": "消除玩法相关的组件",
+        "input": "",
+        "output": "消除玩法相关的组件包括RemoveSymbols（移除符号）、DropDownSymbols（剩余符号下落）和RefillSymbols（重新填充符号）。"
+    }
+]

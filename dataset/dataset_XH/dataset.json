@@ -1,0 +1,47 @@
+[
+    {
+        "instruction": "解释slotcraft的主要用途。",
+        "input": "",
+        "output": "slotcraft是一个用来快速制作slot游戏的系统。"
+    },
+    {
+        "instruction": "概述slotcraft的两个主要编辑部分。",
+        "input": "",
+        "output": "slotcraft分为逻辑编辑和client编辑两部分。"
+    },
+    {
+        "instruction": "说明在逻辑编辑部分用户需要做什么。",
+        "input": "",
+        "output": "在slotcraft的逻辑编辑部分，用户需要通过类似流程图的方式，配置组件的workflow，从而实现对slot游戏逻辑的细节控制。"
+    },
+    {
+        "instruction": "列举slotcraft中的初始化转轮类组件。",
+        "input": "",
+        "output": "•BasicReels：这是最基础的组件，用一个Reels来初始化游戏。•WeightReels：适用于有多套Reels的游戏，根据配置的权重表选择一个Reels来初始化游戏。"
+    },
+    {
+        "instruction": "解释Trigger类在slot游戏中的作用。",
+        "input": "",
+        "output": "Trigger类是slot游戏最核心的玩法，现在分为4种。LinesTrigger支持line玩法，WaysTrigger代表ways玩法，ScatterTrigger一般用来触发特殊feature，而ClusterTrigger常用于消除类游戏。"
+    },
+    {
+        "instruction": "描述特殊逻辑类中包含哪些组件。",
+        "input": "",
+        "output": "特殊逻辑类包括Respin（FreeGame及respin玩法核心组件）、Collector（收集器，根据规则收集特定symbol或wins触发feature）、SymbolColletion（symbol集合，用于symbol遍历逻辑）和PositionCollection（position集合，用于position遍历逻辑）。"
+    },
+    {
+        "instruction": "介绍reels变化类的功能。",
+        "input": "",
+        "output": "reels变化类可以根据特定的规则，改变reels。例如ReplaceReel可以让一个或多个reel发生变化。"
+    },
+    {
+        "instruction": "解释symbol变化类的工作原理。",
+        "input": "",
+        "output": "symbol变化类根据特定规则，改变某一个或多个symbol。如MoveSymbol移动特定symbol并可修改起点、途经和终点的symbol，Cascading是一种消除玩法。"
+    },
+    {
+        "instruction": "详细说明SymbolVals类的应用场景。",
+        "input": "",
+        "output": "SymbolVals主要用于某个特定位置上需要额外数据的feature，最常见的有coin和倍数。例如SymbolValWins用于coin玩法，可以收集所有的coin，产生wins。"
+    }
+]

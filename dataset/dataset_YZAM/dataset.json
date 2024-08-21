@@ -1,0 +1,77 @@
+[
+    {
+        "instruction": "解释slotcraft系统是什么。",
+        "input": "",
+        "output": "slotcraft是一个用来快速制作slot游戏的系统。"
+    },
+    {
+        "instruction": "slotcraft系统分为哪两个部分？",
+        "input": "",
+        "output": "slotcraft分为逻辑编辑和client编辑两部分。"
+    },
+    {
+        "instruction": "逻辑编辑部分是如何实现对slot游戏逻辑的控制的？",
+        "input": "",
+        "output": "在slotcraft的逻辑编辑部分，用户需要通过类似流程图的方式，配置组件的workflow，从而实现对slot游戏逻辑的细节控制。"
+    },
+    {
+        "instruction": "slotcraft的组件分为哪些大类？",
+        "input": "",
+        "output": "slotcraft的组件分为初始化转轮类、Trigger类、特殊逻辑类、reels变化类、symbol变化类和Cascading类以及SymbolVals类。"
+    },
+    {
+        "instruction": "初始化转轮类中包含哪些组件？",
+        "input": "",
+        "output": "初始化转轮类包含BasicReels和WeightReels两个组件。BasicReels是最基础的组件，用一个Reels来初始化游戏；WeightReels适用于有多套Reels的游戏，根据配置的权重表选择一个Reels来初始化游戏。"
+    },
+    {
+        "instruction": "Trigger类包含哪些核心玩法？",
+        "input": "",
+        "output": "Trigger类包含四种核心玩法：LinesTrigger（line玩法）、WaysTrigger（ways玩法）、ScatterTrigger（scatter玩法）和ClusterTrigger（cluster玩法）。"
+    },
+    {
+        "instruction": "特殊逻辑类中包含哪些组件？",
+        "input": "",
+        "output": "特殊逻辑类包含Respin、Collector、SymbolColletion和PositionCollection四个组件。"
+    },
+    {
+        "instruction": "reels变化类中包含哪些组件？",
+        "input": "",
+        "output": "reels变化类中包含ReplaceReel组件，可以让一个或多个reel发生变化。"
+    },
+    {
+        "instruction": "symbol变化类中包含哪些组件？",
+        "input": "",
+        "output": "symbol变化类中包含MoveSymbol组件，可以移动特定的symbol，以及Cascading类，包括RemoveSymbols、DropDownSymbols和RefillSymbols组件。"
+    },
+    {
+        "instruction": "Cascading类中包含哪些特殊玩法？",
+        "input": "",
+        "output": "Cascading类中包含RemoveSymbols（根据规则移除一组symbol）、DropDownSymbols（根据规则，让剩下的symbol下落）和RefillSymbols（根据规则，重新填充新的symbol）三种特殊玩法。"
+    },
+    {
+        "instruction": "SymbolVals类主要用于什么？",
+        "input": "",
+        "output": "SymbolVals类主要用于某个特定位置上需要额外数据的feature，最常见的有coin和倍数。"
+    },
+    {
+        "instruction": "SymbolValWins组件是用于什么玩法的？",
+        "input": "",
+        "output": "SymbolValWins组件用于coin玩法，可以收集所有的coin，产生wins。"
+    },
+    {
+        "instruction": "slotcraft系统中，哪些组件是用来初始化整个游戏逻辑的？",
+        "input": "",
+        "output": "slotcraft系统中，初始化转轮类中的BasicReels和WeightReels组件是用来初始化整个游戏逻辑的。"
+    },
+    {
+        "instruction": "slotcraft系统中，哪些组件是用来实现特殊feature的？",
+        "input": "",
+        "output": "slotcraft系统中，特殊逻辑类中的Respin、Collector、SymbolColletion和PositionCollection组件，以及Cascading类中的RemoveSymbols、DropDownSymbols和RefillSymbols组件，都可以用来实现特殊feature。"
+    },
+    {
+        "instruction": "slotcraft系统中，哪些组件是用来改变reels或symbol的？",
+        "input": "",
+        "output": "slotcraft系统中，reels变化类中的ReplaceReel组件用来改变reels，symbol变化类中的MoveSymbol组件用来改变symbol。"
+    }
+]
